@@ -2,7 +2,7 @@
 
 if [[ $# -ne 2 ]]
 then
-    echo "App needs exactly 2 arguments"
+    echo "we're looking for two arguments"
     exit 1
 fi
 
@@ -10,7 +10,7 @@ if [[ -d "$1" ]]
 then
     echo ""
 else
-    echo "$1 is not a directory"
+    echo "$1 not a directory"
     exit 1
 fi
 
